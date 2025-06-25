@@ -19,12 +19,12 @@ Ce dépôt est un **template de démarrage rapide** pour les projets React utili
 
 ## 🧱 Stack technique
 
-| Outil / techno  | Utilisation principale                        |
-|-----------------|------------------------------------------------|
-| React           | UI frontend (JSX)                             |
-| Vite            | Dev server + build                            |
-| SCSS (Sass)     | Styling avec structure 7-1 + BEM              |
-| JSDoc           | Documentation automatique du code JS/React    |
+| Outil / techno | Utilisation principale                     |
+| -------------- | ------------------------------------------ |
+| React          | UI frontend (JSX)                          |
+| Vite           | Dev server + build                         |
+| SCSS (Sass)    | Styling avec structure 7-1 + BEM           |
+| JSDoc          | Documentation automatique du code JS/React |
 
 ---
 
@@ -51,12 +51,12 @@ npm run dev
 
 ## 🔧 Scripts disponibles
 
-| Script             | Description                                 |
-|--------------------|---------------------------------------------|
-| `npm run dev`      | Lance le serveur Vite                       |
-| `npm run build`    | Build de production                         |
-| `npm run preview`  | Lance un serveur local sur le build         |
-| `npm run doc`      | Génère la documentation dans `/docs`       |
+| Script            | Description                          |
+| ----------------- | ------------------------------------ |
+| `npm run dev`     | Lance le serveur Vite                |
+| `npm run build`   | Build de production                  |
+| `npm run preview` | Lance un serveur local sur le build  |
+| `npm run doc`     | Génère la documentation dans `/docs` |
 
 ---
 
@@ -97,5 +97,5 @@ N’hésite pas à proposer des issues, des améliorations ou des pull requests 
 
 - [Documentation React](https://react.dev/)
 - [Guide officiel Vite](https://vitejs.dev/guide/)
-- [Guide Sass (7-1)](https://gist.github.com/HugoGiraudel/9752329)
+- [Guide Sass (7-1)](https://sass-guidelin.es/#architecture)
 - [JSDoc Cheatsheet](https://devhints.io/jsdoc)
