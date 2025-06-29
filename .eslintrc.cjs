@@ -15,6 +15,9 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  ignorePatterns: [
+    'docs/scripts/**', // ignore tous ces scripts
+  ],
   rules: {
     'import/extensions': [
       'error',
@@ -27,6 +30,12 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
   },
   overrides: [
+    {
+      files: ['vite.config.js'],
+      rules: {
+        'import/no-extraneous-dependencies': 'off',
+      },
+    },
     {
       files: ['*.jsx'],
       rules: {
